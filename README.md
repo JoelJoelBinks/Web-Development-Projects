@@ -5,3 +5,4 @@ Live completed websites:
 http://studenthome.nku.edu/~ostertagj1/Japanese%20Tourism/Index.html
 http://studenthome.nku.edu/~ostertagj1/musicsurvey.html
 
+unable to locate Javascript files.
