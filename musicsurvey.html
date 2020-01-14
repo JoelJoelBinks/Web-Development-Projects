@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+form {  font-family: Arial, sans-serif; 
+		padding: 10px;	}
+		
+label {
+		width: 100px;  
+		padding-right: 10px; 
+		margin-top: 10px; }
+		
+input, textarea { margin-top: 10px; 
+}
+		
+#mySubmit { margin-left: 110px; }
+</style
+<head>
+<title>Music Survey</title>
+<meta charset="utf-8">
+<h1>Music Survey</h1>
+</head>
+
+<body>
+<form action="https://webdevbasics.net/scripts/demo.php" method="post">
+<fieldset>
+	<legend>Customer Information</legend>
+	<label>Name:
+		<input name="name" id="name">
+		<br>
+	E-Mail: 
+		<input type="email" name="email" id="email">
+		<br>
+	</label>
+</fieldset>
+<fieldset>
+	<legend>Select Your Facorite Type of Music:</legend>
+<input type="checkbox" name="Pop" id="Music" value="yes">Pop<br>
+<input type="checkbox" name="Rock" id="Music" value="yes">Rock<br>
+<input type="checkbox" name="Rap" id="Music" value="yes">Rap<br>
+<input type="checkbox" name="Classical" id="Music" value="yes">Classical<br>
+<input type="checkbox" name="Folk" id="Music" value="yes">Folk<br>
+<input type="checkbox" name="Other" id="Music" value="yes">Other<br>
+</fieldset>
+<br>
+<fieldset>
+	<legend>Select how often you purchase Music CDs:</legend>
+<input type="radio" id="often" name="Weekly" value="Weekly">Weekly<br>
+<input type="radio" id="often" name="Monthly" value="Monthly">Monthly<br>
+<input type="radio" id="often" name="A few CDs each year" value="A few CDs each year">A few CDs each year<br>
+<input type="radio" id="often" name="Never purchase" value="Never purchase">Never purchase<br>
+</fieldset>
+<br>
+<fieldset>
+	<legend>Select the locations you listen to CDs:</legend>
+<select size="3" name="location" id="location" multiple>
+<option value="Select one or more locations">Select one or more locations</option>
+<option value="At home">At home</option>
+<option value="In the car">In the car</option>
+<option value="Eastside">On the Eastside</option>
+</select>
+<br>
+</fieldset>
+<br><br>
+<fieldset>
+	<legend>What role does music play in your life?</legend>
+		<textarea name="Comments" id="Comments" rows"4" cols"40">Comments?</textarea>
+</fieldset>
+<input type="submit">				<input type="reset" name="reset" id="reset">
+<br>
+</form>
+</body>
+</html>
