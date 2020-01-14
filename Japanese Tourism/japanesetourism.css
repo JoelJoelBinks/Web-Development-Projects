@@ -1,0 +1,103 @@
+header, nav, main, footer, aside { display: block; }
+* { box-sizing: border-box;
+	font-family: "Arial", serif; }
+body { margin:0;
+       background-color: #ffffff; }
+header { background-color: #D9E6EF;
+         background-image: url(temple.jpg);
+         background-position: left;
+         background-repeat: no-repeat;
+		 background-size: auto;
+         height: 100px;
+         color: black;
+         text-align: right;
+         padding: 20px 20px;}		 
+nav {
+	text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px auto;
+  padding-left: 127.5px;
+  padding-right: 127.5px;
+  overflow: hidden;
+  background-color: #D9E6EF;
+  display:inline-block;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ADB8BF;
+  }
+aside { float: left;
+        width: 200px; }
+main { margin: 0 210px 0 160px;
+        padding: 1px 10px 20px 10px;
+        background-color: #ffffff;
+        color: black; }
+footer { font-size: .70em;
+         text-align: center;
+         color: black;
+         background-color: #D9E6EF;
+         padding-top: 10px;
+		 clear:both;
+         }		 
+h1 { margin-top: 25px;
+     font-size: 3em;
+     text-align: right;
+     text-shadow: 2px 2px 2px #000000; }	 
+header a {font-size: 0.80em; }
+header a:link, header a:visited { color: #ffffff; }
+header a:focus, header a:hover { color: #eeeeee; }
+nav ul {
+         list-style-type: none; }
+nav a { text-decoration: none;
+        font-size: 1.2em; }
+nav a:link { color:black;}
+nav a:visited { color: #003300; }
+nav a:focus, nav a:hover { color: #D9E6EF; }
+nav a:active { color: #ADB8BF;}
+nav img { margin: 30px;}
+main p { margin: 20px; }
+main h2, main h3 { color: black;
+                   background-color: #ffffff; }
+.floatright { margin: 10px;
+              float: right; }
+aside h3 { padding-bottom: 2px;
+           border-bottom: 1px solid #000000;
+           margin: 10px;
+           font-size: 0.90em;
+		   color: black; }
+.news { font-size: 0.80em;
+        margin: 10px; }	
+
+#wrapper {
+			min-width: 900px;
+			max-width: 1280px;
+			box-shadow: 5px 5px 5px #000000;
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: auto;
+			}
+@media only screen and (max-width: 1024px) {
+	aside { display: none;}
+	li { float: none;}
+	}
+@media only screen and (max-width: 768px) {
+	aside { display: none;}
+	li { float: none;}
+	main p { 
+		margin: 0px;}
+	}
