@@ -1,5 +1,5 @@
 # Web-Development-Projects
-All of the projects I have done using HTML, CSS, or Javascript. 
+Some of the projects I have done using HTML, CSS, or Javascript. 
 
 Live (still on NKU's domain) websites:
 http://studenthome.nku.edu/~ostertagj1/Japanese%20Tourism/Index.html
